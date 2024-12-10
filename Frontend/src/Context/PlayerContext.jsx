@@ -9,7 +9,7 @@ const audioRef = useRef();
 const seekBg = useRef ();
 const seekBar = useRef ();
 
-const url = 'http://localhost:4000'
+const url = 'https://spotify-app-1-31xx.onrender.com'
 const [songsData, setSongsData] = useState ([]);
 const [albumsData, setAlbumsData]= useState([]);
 
